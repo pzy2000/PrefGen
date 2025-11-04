@@ -1,11 +1,11 @@
-# SolCoder: Towards Optimum Smart Contract Generation
+# PrefGen: Preference-Driven Framework for Secure, Gas-Efficient Smart Contract Generation
 
-**SolCoder** is a novel framework designed to generate and evaluate Solidity smart contracts using Large Language Models (LLMs). 
-It integrates various tools and methodologies to ensure the generated contracts are functional, secure, and optimized for gas usage. 
+**PrefGen** is a novel framework designed to generate and evaluate Solidity smart contracts using Large Language Models (LLMs). 
+It integrates various tools and methodologies (i.e., SFT, DPO) to ensure the generated contracts are functional, secure, and optimized for gas usage. 
 The framework supports multiple LLMs and provides a comprehensive evaluation pipeline.
 ## Installation
 
-To install SolCoder, clone this repository and install the required dependencies:
+To install PrefGen, clone this repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/Anonymous/Anonymous.git
@@ -17,7 +17,7 @@ Before running the evaluation, researchers need to download the repositories, an
 
 ### Repositories
 
-The original repositories can be downloaded from [link](https://anonymous.4open.science/r/SolCoder-3271/repository.zip). Users need to uncompressed the repositories and put them in the root directory (i.e., `SolCoder/repository`).
+The original repositories can be downloaded from [link](https://anonymous.4open.science/r/PrefGen-3271/repository.zip). Users need to uncompressed the repositories and put them in the root directory (i.e., `PrefGen/repository`).
 
 The project are stored in `repository`. `repository` contains several subfolders, each of which corresponds to a GitHub project. Please do not modify the file structure of the repositories. Otherwise, the evaluation script can not work properly.
 
@@ -96,7 +96,7 @@ You can use the `tools/precheck.py` script to check the validity of the reposito
 python tools/precheck.py
 ```
 
-If something is wrong, you may need to fix the repositories manually by deleting the whole repository folder and re-downloading the repositories from the [link](https://anonymous.4open.science/r/SolCoder-3271/repository.zip).
+If something is wrong, you may need to fix the repositories manually by deleting the whole repository folder and re-downloading the repositories from the [link](https://anonymous.4open.science/r/PrefGen-3271/repository.zip).
 
 ### Running Vulnerability Analysis with Slither
 
@@ -136,13 +136,13 @@ The arguments are explained as follows.
 
 ## License
 
-SolCoder is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+PrefGen is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgements
 
-SolCoder is developed as part of our submission for ACL2025.
+PrefGen is developed as part of our submission for ASE2025.
 
-We acknowledge the contributions of the open-source community and the developers of the tools integrated into SolCoder.
+We acknowledge the contributions of the open-source community and the developers of the tools integrated into PrefGen.
 
 ## Contact
 
